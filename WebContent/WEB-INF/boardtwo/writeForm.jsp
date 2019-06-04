@@ -108,9 +108,11 @@
 							</tr>
 						</tbody>
 					</table>
-					<input type="submit" class="btn btn-success pull-right" value="글쓰기"/>
-					<input type="button" class="btn btn-default" value="목록" 
-										onClick="window.location='${pageContext.request.contextPath}/board/list.do'"/>
+					<div style="margin-bottom:20px">
+						<input type="submit" class="btn btn-success pull-right" value="글쓰기"/>
+						<input type="button" class="btn btn-default" value="목록" 
+											onClick="window.location='${pageContext.request.contextPath}/board/list.do'"/>
+					</div>
 				</form>
 			</div>
 		</div>
