@@ -53,7 +53,6 @@
 	</header>
 	<section>
 		<div class="container text-center">
-			<h1>Welcome 진수 Blog!!</h1>
 			<img src="${pageContext.request.contextPath }/images/hi.jpg" width="600" height="500">
 		</div>
 	</section>
