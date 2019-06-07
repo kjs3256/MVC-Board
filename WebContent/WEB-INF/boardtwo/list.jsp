@@ -115,7 +115,7 @@
 				<c:if test="${count>0 }">
 					<c:set var="imsi" value="${count % pageSize == 0 ? 0 : 1 }"/>
 					<c:set var="pageCount" value="${count / pageSize + imsi }"/>
-					<c:set var="pageBlock" value="${3 }"/>
+					<c:set var="pageBlock" value="${5 }"/>
 					<fmt:parseNumber var="result" value="${currentPage / pageBlock }"
 					integerOnly="true"/>
 					<c:set var="startPage" value="${result * pageBlock+1 }"/>
